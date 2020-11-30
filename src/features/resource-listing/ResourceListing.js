@@ -55,7 +55,7 @@ class ResourceListing extends Component {
                 <div 
                   onClick={()=>{this.handleDataClick()}}
                   style={{display:'flex',flex:1, justifyContent:'flex-end'}}>
-                 {!isCollapsed ? <i class="fa fa-angle-down" style={{fontSize:24}}></i>:<i class="fa fa-angle-up" style={{fontSize:24}}></i>}
+                 {!isCollapsed ? <i className="fa fa-angle-down" style={{fontSize:24}}></i>:<i class="fa fa-angle-up" style={{fontSize:24}}></i>}
                 </div>
                 </div>  
                 
@@ -84,8 +84,8 @@ function getdataTable(data, key, fun){
  </thead>
  <tbody>
      {
-         data.map((row)=>{
-             return (<tr>
+         data.map((row,index)=>{
+             return (<tr key={index}>
                 <td>{row.text}</td>
                 <td><a href={row.link} rel="noopener noreferrer" target="_blank">{row.link}</a></td>
                 <td>{row.isUrlRelative}</td>
