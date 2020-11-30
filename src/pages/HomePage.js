@@ -11,7 +11,7 @@ class HomePage extends Component {
       isLoading : false
     }
     this.input = React.createRef();
-    this.instance = axios.create({baseURL: 'http://localhost:8080'})
+    this.instance = axios.create({baseURL: 'https://powlead2edserver.herokuapp.com'})
    
   }
 
