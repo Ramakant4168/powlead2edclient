@@ -2,7 +2,6 @@
 
 import React, { Component } from 'react'
 import axios from 'axios'
-import ReactJson from 'react-json-view'
 import ResourceListing from '../features/resource-listing/ResourceListing'
 
 class ResourcePage extends Component {
