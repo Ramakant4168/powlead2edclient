@@ -17,6 +17,7 @@ https://github.com/Ramakant4168/powlead2edsever
 
 ### To do
 1. Implement edit/delete saved resources
+2. Redux integration to persist data between navigation
 
 
 
